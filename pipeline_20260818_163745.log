@@ -1,0 +1,213 @@
+
+===============================================
+              PIPELINE INICIADO
+===============================================
+[2026-08-18 16:37:45] [INFO] Data: Tue Aug 18 04:37:45 PM UTC 2026
+[2026-08-18 16:37:45] [INFO] CPUs disponíveis: 2
+[2026-08-18 16:37:45] [INFO] Diretório: /content
+[2026-08-18 16:37:45] [INFO] Arquivo de log: logs/pipeline_20260818_163745.log
+===============================================
+[2026-08-18 16:37:45] [INFO] Criando diretórios...
+[2026-08-18 16:37:45] [OK] Diretórios preparados.
+
+===============================================
+[2026-08-18 16:37:45] [INFO] Processando amostra: SRR5221957
+===============================================
+[2026-08-18 16:37:45] [INFO] [SRR5221957] Iniciando download do SRA...
+
+2026-08-18T16:37:47 prefetch.2.11.3: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2026-08-18T16:37:48 prefetch.2.11.3: 1) Downloading 'SRR5221957'...
+2026-08-18T16:37:48 prefetch.2.11.3: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2026-08-18T16:37:48 prefetch.2.11.3:  Downloading via HTTPS...
+2026-08-18T16:38:13 prefetch.2.11.3:  HTTPS download succeed
+2026-08-18T16:38:16 prefetch.2.11.3:  'SRR5221957' is valid
+2026-08-18T16:38:16 prefetch.2.11.3: 1) 'SRR5221957' was downloaded successfully
+[2026-08-18 16:38:16] [OK] [SRR5221957] Download concluído em 31 segundos.
+[2026-08-18 16:38:16] [INFO] [SRR5221957] Convertendo SRA para FASTQ...
+spots read      : 9,081,325
+reads read      : 9,081,325
+reads written   : 9,081,325
+[2026-08-18 16:39:20] [OK] [SRR5221957] Conversão concluída em 64 segundos.
+[2026-08-18 16:39:20] [INFO] [SRR5221957] Executando FastQC...
+[0.019s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.019s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+Started analysis of SRR5221957.fastq
+Approx 5% complete for SRR5221957.fastq
+Approx 10% complete for SRR5221957.fastq
+Approx 15% complete for SRR5221957.fastq
+Approx 20% complete for SRR5221957.fastq
+Approx 25% complete for SRR5221957.fastq
+Approx 30% complete for SRR5221957.fastq
+Approx 35% complete for SRR5221957.fastq
+Approx 40% complete for SRR5221957.fastq
+Approx 45% complete for SRR5221957.fastq
+Approx 50% complete for SRR5221957.fastq
+Approx 55% complete for SRR5221957.fastq
+Approx 60% complete for SRR5221957.fastq
+Approx 65% complete for SRR5221957.fastq
+Approx 70% complete for SRR5221957.fastq
+Approx 75% complete for SRR5221957.fastq
+Approx 80% complete for SRR5221957.fastq
+Approx 85% complete for SRR5221957.fastq
+Approx 90% complete for SRR5221957.fastq
+Approx 95% complete for SRR5221957.fastq
+Analysis complete for SRR5221957.fastq
+[2026-08-18 16:40:01] [OK] [SRR5221957] FastQC concluído em 41 segundos.
+[2026-08-18 16:40:01] [OK] [SRR5221957] Todas as etapas concluídas.
+
+===============================================
+[2026-08-18 16:40:01] [INFO] Processando amostra: SRR5221958
+===============================================
+[2026-08-18 16:40:01] [INFO] [SRR5221958] Iniciando download do SRA...
+
+2026-08-18T16:40:02 prefetch.2.11.3: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2026-08-18T16:40:03 prefetch.2.11.3: 1) Downloading 'SRR5221958'...
+2026-08-18T16:40:03 prefetch.2.11.3: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2026-08-18T16:40:03 prefetch.2.11.3:  Downloading via HTTPS...
+2026-08-18T16:40:34 prefetch.2.11.3:  HTTPS download succeed
+2026-08-18T16:40:38 prefetch.2.11.3:  'SRR5221958' is valid
+2026-08-18T16:40:38 prefetch.2.11.3: 1) 'SRR5221958' was downloaded successfully
+[2026-08-18 16:40:38] [OK] [SRR5221958] Download concluído em 37 segundos.
+[2026-08-18 16:40:38] [INFO] [SRR5221958] Convertendo SRA para FASTQ...
+spots read      : 10,198,831
+reads read      : 10,198,831
+reads written   : 10,198,831
+[2026-08-18 16:41:52] [OK] [SRR5221958] Conversão concluída em 74 segundos.
+[2026-08-18 16:41:52] [INFO] [SRR5221958] Executando FastQC...
+[0.001s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+Started analysis of SRR5221958.fastq
+Approx 5% complete for SRR5221958.fastq
+Approx 10% complete for SRR5221958.fastq
+Approx 15% complete for SRR5221958.fastq
+Approx 20% complete for SRR5221958.fastq
+Approx 25% complete for SRR5221958.fastq
+Approx 30% complete for SRR5221958.fastq
+Approx 35% complete for SRR5221958.fastq
+Approx 40% complete for SRR5221958.fastq
+Approx 45% complete for SRR5221958.fastq
+Approx 50% complete for SRR5221958.fastq
+Approx 55% complete for SRR5221958.fastq
+Approx 60% complete for SRR5221958.fastq
+Approx 65% complete for SRR5221958.fastq
+Approx 70% complete for SRR5221958.fastq
+Approx 75% complete for SRR5221958.fastq
+Approx 80% complete for SRR5221958.fastq
+Approx 85% complete for SRR5221958.fastq
+Approx 90% complete for SRR5221958.fastq
+Approx 95% complete for SRR5221958.fastq
+Analysis complete for SRR5221958.fastq
+[2026-08-18 16:42:39] [OK] [SRR5221958] FastQC concluído em 47 segundos.
+[2026-08-18 16:42:39] [OK] [SRR5221958] Todas as etapas concluídas.
+
+===============================================
+[2026-08-18 16:42:39] [INFO] Processando amostra: SRR5221961
+===============================================
+[2026-08-18 16:42:39] [INFO] [SRR5221961] Iniciando download do SRA...
+
+2026-08-18T16:42:41 prefetch.2.11.3: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2026-08-18T16:42:42 prefetch.2.11.3: 1) Downloading 'SRR5221961'...
+2026-08-18T16:42:42 prefetch.2.11.3: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2026-08-18T16:42:42 prefetch.2.11.3:  Downloading via HTTPS...
+2026-08-18T16:43:31 prefetch.2.11.3:  HTTPS download succeed
+2026-08-18T16:43:36 prefetch.2.11.3:  'SRR5221961' is valid
+2026-08-18T16:43:36 prefetch.2.11.3: 1) 'SRR5221961' was downloaded successfully
+[2026-08-18 16:43:36] [OK] [SRR5221961] Download concluído em 57 segundos.
+[2026-08-18 16:43:36] [INFO] [SRR5221961] Convertendo SRA para FASTQ...
+spots read      : 12,862,702
+reads read      : 12,862,702
+reads written   : 12,862,702
+[2026-08-18 16:45:16] [OK] [SRR5221961] Conversão concluída em 100 segundos.
+[2026-08-18 16:45:16] [INFO] [SRR5221961] Executando FastQC...
+[0.004s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.004s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+Started analysis of SRR5221961.fastq
+Approx 5% complete for SRR5221961.fastq
+Approx 10% complete for SRR5221961.fastq
+Approx 15% complete for SRR5221961.fastq
+Approx 20% complete for SRR5221961.fastq
+Approx 25% complete for SRR5221961.fastq
+Approx 30% complete for SRR5221961.fastq
+Approx 35% complete for SRR5221961.fastq
+Approx 40% complete for SRR5221961.fastq
+Approx 45% complete for SRR5221961.fastq
+Approx 50% complete for SRR5221961.fastq
+Approx 55% complete for SRR5221961.fastq
+Approx 60% complete for SRR5221961.fastq
+Approx 65% complete for SRR5221961.fastq
+Approx 70% complete for SRR5221961.fastq
+Approx 75% complete for SRR5221961.fastq
+Approx 80% complete for SRR5221961.fastq
+Approx 85% complete for SRR5221961.fastq
+Approx 90% complete for SRR5221961.fastq
+Approx 95% complete for SRR5221961.fastq
+Analysis complete for SRR5221961.fastq
+[2026-08-18 16:46:17] [OK] [SRR5221961] FastQC concluído em 61 segundos.
+[2026-08-18 16:46:17] [OK] [SRR5221961] Todas as etapas concluídas.
+
+===============================================
+[2026-08-18 16:46:17] [INFO] Processando amostra: SRR5221962
+===============================================
+[2026-08-18 16:46:17] [INFO] [SRR5221962] Iniciando download do SRA...
+
+2026-08-18T16:46:19 prefetch.2.11.3: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2026-08-18T16:46:20 prefetch.2.11.3: 1) Downloading 'SRR5221962'...
+2026-08-18T16:46:20 prefetch.2.11.3: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2026-08-18T16:46:20 prefetch.2.11.3:  Downloading via HTTPS...
+2026-08-18T16:47:07 prefetch.2.11.3:  HTTPS download succeed
+2026-08-18T16:47:12 prefetch.2.11.3:  'SRR5221962' is valid
+2026-08-18T16:47:12 prefetch.2.11.3: 1) 'SRR5221962' was downloaded successfully
+[2026-08-18 16:47:12] [OK] [SRR5221962] Download concluído em 55 segundos.
+[2026-08-18 16:47:12] [INFO] [SRR5221962] Convertendo SRA para FASTQ...
+spots read      : 11,777,969
+reads read      : 11,777,969
+reads written   : 11,777,969
+[2026-08-18 16:48:40] [OK] [SRR5221962] Conversão concluída em 88 segundos.
+[2026-08-18 16:48:40] [INFO] [SRR5221962] Executando FastQC...
+[0.041s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.041s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+Started analysis of SRR5221962.fastq
+Approx 5% complete for SRR5221962.fastq
+Approx 10% complete for SRR5221962.fastq
+Approx 15% complete for SRR5221962.fastq
+Approx 20% complete for SRR5221962.fastq
+Approx 25% complete for SRR5221962.fastq
+Approx 30% complete for SRR5221962.fastq
+Approx 35% complete for SRR5221962.fastq
+Approx 40% complete for SRR5221962.fastq
+Approx 45% complete for SRR5221962.fastq
+Approx 50% complete for SRR5221962.fastq
+Approx 55% complete for SRR5221962.fastq
+Approx 60% complete for SRR5221962.fastq
+Approx 65% complete for SRR5221962.fastq
+Approx 70% complete for SRR5221962.fastq
+Approx 75% complete for SRR5221962.fastq
+Approx 80% complete for SRR5221962.fastq
+Approx 85% complete for SRR5221962.fastq
+Approx 90% complete for SRR5221962.fastq
+Approx 95% complete for SRR5221962.fastq
+Analysis complete for SRR5221962.fastq
+[2026-08-18 16:49:38] [OK] [SRR5221962] FastQC concluído em 58 segundos.
+[2026-08-18 16:49:38] [OK] [SRR5221962] Todas as etapas concluídas.
+
+===============================================
+[2026-08-18 16:49:38] [INFO] Executando MultiQC...
+===============================================
+
+/// MultiQC 🔍 v1.35
+
+       file_search | Search path: /content/qc
+
+            fastqc | Found 4 reports
+
+     write_results | Data        : qc/multiqc_data
+     write_results | Report      : qc/multiqc_report.html
+           multiqc | MultiQC complete
+[2026-08-18 16:49:52] [OK] MultiQC concluído em 14 segundos.
+
+===============================================
+[2026-08-18 16:49:52] [INFO] Iniciando Trim Galore...
+===============================================
+[2026-08-18 16:49:52] [INFO] [SRR5221957] Executando Trim Galore...
+./pipeline.sh: line 185: trim_galore: command not found
+[2026-08-18 16:49:52] [ERROR] Pipeline interrompido na linha 185. Comando: trim_galore "fastq/${SAMPLE}.fastq" --output_dir trimmed

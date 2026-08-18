@@ -1,0 +1,24 @@
+
+===============================================
+              PIPELINE INICIADO
+===============================================
+[2026-08-18 16:56:50] [INFO] Data: Tue Aug 18 04:56:50 PM UTC 2026
+[2026-08-18 16:56:50] [INFO] CPUs disponíveis: 2
+[2026-08-18 16:56:50] [INFO] Diretório: /content
+[2026-08-18 16:56:50] [INFO] Arquivo de log: logs/pipeline_20260818_165650.log
+===============================================
+[2026-08-18 16:56:50] [INFO] Criando diretórios...
+[2026-08-18 16:56:50] [OK] Diretórios preparados.
+
+===============================================
+[2026-08-18 16:56:50] [INFO] Processando amostra: SRR5221957
+===============================================
+[2026-08-18 16:56:50] [INFO] [SRR5221957] Iniciando download do SRA...
+
+2026-08-18T16:56:52 prefetch.2.11.3: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2026-08-18T16:56:53 prefetch.2.11.3: 1) 'SRR5221957' is found locally
+[2026-08-18 16:56:53] [OK] [SRR5221957] Download concluído em 3 segundos.
+[2026-08-18 16:56:53] [INFO] [SRR5221957] Convertendo SRA para FASTQ...
+2026-08-18T16:56:53 fasterq-dump.2.11.3 err: fasterq-dump.c fastdump_csra() checking ouput-file 'fastq/SRR5221957.fastq' -> RC((null):0:(null) rcExe,rcFile,rcPacking,rcName,rcExists)
+fasterq-dump quit with error code 3
+[2026-08-18 16:56:53] [ERROR] Pipeline interrompido na linha 124. Comando: fasterq-dump "input/$SAMPLE/$SAMPLE.sra" --threads "$THREADS" --outdir fastq
